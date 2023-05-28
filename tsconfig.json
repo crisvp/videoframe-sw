@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "ESM",
+  "files": ["main.ts", "sw.ts"],
+
+  "compilerOptions": {
+    "target": "es2022",
+    "lib": ["dom", "webworker", "es2022"],
+    "module": "es2022",
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true
+  }
+}
